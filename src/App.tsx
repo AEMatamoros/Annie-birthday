@@ -8,11 +8,13 @@ export default function App() {
   return (
     <main className="page">
       <Hero />
-      <PokeballDivider />
-      <EventDetails />
-      <Countdown />
-      <PokeballDivider />
-      <Footer />
+      <div className="page__content">
+        <PokeballDivider />
+        <EventDetails />
+        <Countdown />
+        <PokeballDivider />
+        <Footer />
+      </div>
     </main>
   );
 }
