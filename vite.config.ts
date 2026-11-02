@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// Served from https://aematamoros.github.io/annie-cumple/
+// Served from https://aematamoros.github.io/Annie-birthday/
 export default defineConfig({
-  base: '/annie-cumple/',
+  base: '/Annie-birthday/',
   plugins: [react()],
   build: {
     // GitHub Pages can serve the main branch's /docs folder directly from Settings > Pages.
