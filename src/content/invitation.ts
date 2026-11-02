@@ -9,9 +9,10 @@ export const invitation = {
   birthdayLabel: '3 de noviembre',
   celebration: {
     dateLabel: 'Sábado 7 de noviembre',
-    timeLabel: '12:00 PM',
+    timeLabel: '2:00 PM',
     /** Local time of the party; drives the countdown. */
-    startsAt: '2026-11-07T12:00:00',
+    startsAt: '2026-11-07T14:00:00',
     place: 'Casa de mi abuelita',
+    mapsUrl: 'https://maps.app.goo.gl/YNnmZ4LVYxWzwzzZ7',
   },
 } as const;

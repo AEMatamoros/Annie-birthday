@@ -237,6 +237,28 @@ img {
   color: var(--green-dark);
 }
 
+.card--link {
+  text-decoration: none;
+  transition: transform 150ms ease, border-color 150ms ease;
+}
+
+.card--link:hover,
+.card--link:focus-visible {
+  transform: translateY(-2px);
+  border-color: var(--green);
+  outline: none;
+}
+
+.card__hint {
+  margin-top: 4px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--green);
+  color: var(--cream);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
 /* ---------- Countdown ---------- */
 .countdown {
   text-align: center;
